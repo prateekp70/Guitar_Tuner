@@ -46,7 +46,6 @@ class GuitarTuner:
         self.quitButton.grid(row = 9,column = 1,pady = 20)
 
     def playNote(self, note):
-        print("Playing Note : ")
         winsound.Beep(int(float(note)),1000)
         
 
